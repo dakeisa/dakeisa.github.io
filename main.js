@@ -291,4 +291,5 @@ document.addEventListener('DOMContentLoaded', function() {
     aboutVideo.play().catch(err => {
         console.log('Autoplay blocked:', err);
     });
+    heroVideo.play().catch(() => {});
 });
