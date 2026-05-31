@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cantante profesional para bodas, eventos corporativos, restaurantes y celebraciones privadas. Música en vivo para crear momentos inolvidables.">
+    <meta name="keywords" content="cantante, entretenimiento, bodas, eventos, restaurantes, celebraciones privadas, música en vivo, música elegante">
+    <meta name="author" content="Dakeisa">
+    <link rel="canonical" href="https://dakeisa.github.io/" />
+
+    <meta property="og:title" content="Dakeisa">
+    <meta property="og:description" content="Cantante profesional para eventos. Música en vivo para crear momentos inolvidables.">
+    <meta property="og:image" content="https://dakeisa.github.io/public/banner.jpg">
+    <meta property="og:url" content="https://dakeisa.github.io/">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="./public/ico.png" type="image/x-icon">
+
+    <title>Dakeisa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo">Dakeisa</a>
+        <ul class="nav-links">
+            <li><a href="#about">Acerca de mí</a></li>
+            <li><a href="#demos">Demos</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#gallery">Galería</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMobileNav()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <span class="mobile-nav-close" onclick="toggleMobileNav()">&times;</span>
+        <a href="#about" onclick="toggleMobileNav()">Acerca de mí</a>
+        <a href="#demos" onclick="toggleMobileNav()">Demos</a>
+        <a href="#services" onclick="toggleMobileNav()">Servicios</a>
+        <a href="#gallery" onclick="toggleMobileNav()">Galería</a>
+        <a href="#contact" onclick="toggleMobileNav()">Contacto</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg-wrapper">
+            <div class="hero-bg-text">
+                <span>
+                    Artista ✦ Música ✦ En Vivo ✦ Artista ✦ Música ✦ En Vivo ✦
+                    Artista ✦ Música ✦ En Vivo ✦ Artista ✦ Música ✦ En Vivo ✦
+                </span>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-label">Artista de Música en Vivo</p>
+                <h1 class="hero-title">Premium<br><span>Música en Vivo</span></h1>
+                <p class="hero-description">
+                    Experiencias musicales inolvidables para bodas, shows y celebraciones privadas.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn">Contáctame</a>
+                </div>
+            </div>
+            <div class="hero-video-wrapper">
+                <div class="hero-circle-decoration"></div>
+                <div class="film-strip-container">
+                    <!-- Left Film Strip -->
+                    <div class="film-strip-left">
+                        <div class="sprocket-holes">
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                        </div>
+                        <span class="film-number">7</span>
+                        <span class="film-code">RDPII - 116</span>
+                    </div>
+
+                    <!-- Video Area -->
+                    <div class="film-video-area">
+                        <video id="heroVideo" autoplay muted loop playsinline>
+                            <source
+                                src="https://res.cloudinary.com/dgutnxfud/video/upload/v1780263166/hero_ayg8y4.mp4"
+                                type="video/mp4">
+                        </video>
+                    </div>
+
+                    <!-- Right Film Strip -->
+                    <div class="film-strip-right">
+                        <div class="sprocket-holes">
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                            <div class="sprocket-hole"></div>
+                        </div>
+                        <span class="film-number">7</span>
+                        <span class="film-code">6A</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <div class="about-video-container fade-in">
+                <div class="about-video-wrapper">
+                    <div class="about-video-decoration"></div>
+                    <div class="about-video-frame">
+                        <video id="aboutVideo" autoplay muted playsinline onclick="togglePlayPause()">
+                            <source src="https://res.cloudinary.com/dgutnxfud/video/upload/v1780261761/aboutme_fwyasw.mp4" type="video/mp4">
+                        </video>
+                        <div class="video-controls">
+                            <button class="video-control-btn" id="playPauseBtn" onclick="togglePlayPause()">
+                                <svg viewBox="0 0 24 24" id="playIcon">
+                                    <polygon points="5,3 19,12 5,21" />
+                                </svg>
+                                <svg viewBox="0 0 24 24" id="pauseIcon" style="display:none;">
+                                    <rect x="6" y="4" width="4" height="16" />
+                                    <rect x="14" y="4" width="4" height="16" />
+                                </svg>
+                            </button>
+                            <div class="volume-slider-container">
+                                <button class="video-control-btn" id="muteBtn" onclick="toggleMute()">
+                                    <svg viewBox="0 0 24 24" id="volumeIcon">
+                                        <path
+                                            d="M11 5L6 9H2v6h4l5 4V5zM15.54 8.46a5 5 0 0 1 0 7.07M19.07 4.93a10 10 0 0 1 0 14.14"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                    </svg>
+                                    <svg viewBox="0 0 24 24" id="muteIcon" style="display:none;">
+                                        <path d="M11 5L6 9H2v6h4l5 4V5zM23 9l-6 6M17 9l6 6" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                    </svg>
+                                </button>
+                                <input type="range" class="volume-slider" id="volumeSlider" min="0" max="100" value="50"
+                                    onchange="changeVolume(this.value)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text fade-in">
+                <p class="section-subtitle">Acerca de mí</p>
+                <h3>Cantante en vivo</h3>
+                <p>
+                    Creamos experiencias musicales elegantes y memorables para bodas, eventos corporativos, 
+                    shows y celebraciones privadas. Cada presentación está diseñada para conectar con el público 
+                    y crear la atmósfera perfecta, combinando emoción, estilo y energía en cada interpretación.
+                </p>
+                <p>
+                    Nuestro repertorio abarca diferentes géneros y estilos musicales desde clásicos inolvidables a éxitos contemporáneos, 
+                    adaptándose a la esencia de cada evento. Desde ceremonias íntimas hasta grandes celebraciones, 
+                    creemos que la música tiene el poder de transformar momentos especiales en recuerdos inolvidables.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h4 class="hero-stat-number">700+</h4>
+                        <span>Eventos realizados</span>
+                    </div>
+                    <div class="stat-item">
+                        <h4 class="hero-stat-number">20+</h4>
+                        <span>Años de Experiencia</span>
+                    </div>
+                    <div class="stat-item">
+                        <h4 class="hero-stat-number">100%</h4>
+                        <span>Satisfacción del Cliente</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demos Section -->
+    <section class="demos" id="demos">
+        <div class="section-header fade-in">
+            <p class="section-subtitle">Véalo en vivo</p>
+            <h2 class="section-title">Demos <span>en vivo</span></h2>
+            <p class="section-description">Experimenta la energía de nuestras actuaciones en vivo. 
+                Cada momento se crea en tiempo real: desde el primer compás hasta el estribillo final.</p>
+        </div>
+        <div class="demos-grid">
+            <div class="demo-card fade-in" onclick="playDemo('corporate')">
+                <video id="corporate" poster="./public/demos/corporate.png">
+                    <source src="https://res.cloudinary.com/dgutnxfud/video/upload/v1780261748/corporate_vocnqd.mp4" type="video/mp4">
+                </video>
+                <div class="demo-card-overlay"></div>
+                <span class="demo-card-tag">Corporativo</span>
+                <div class="demo-card-content">
+                    <h3 class="demo-card-title">Shows elegantes</h3>
+                    <p class="demo-card-desc">Entretenimiento sofisticado para eventos profesionales</p>
+                </div>
+                <div class="demo-play-icon">
+                    <svg viewBox="0 0 24 24">
+                        <polygon points="5,3 19,12 5,21" />
+                    </svg>
+                </div>
+            </div>
+            <div class="demo-card fade-in" onclick="playDemo('restaurant')">
+                <video id="restaurant" poster="./public/demos/restaurant.png">
+                    <source src="https://res.cloudinary.com/dgutnxfud/video/upload/v1780261741/restaurant_tssh7a.mp4" type="video/mp4">
+                </video>
+                <div class="demo-card-overlay"></div>
+                <span class="demo-card-tag">Restaurantes</span>
+                <div class="demo-card-content">
+                    <h3 class="demo-card-title">Shows en restaurantes</h3>
+                    <p class="demo-card-desc">Música en vivo que crea la atmósfera perfecta para experiencias gastronómicas inolvidables.</p>
+                </div>
+                <div class="demo-play-icon">
+                    <svg viewBox="0 0 24 24">
+                        <polygon points="5,3 19,12 5,21" />
+                    </svg>
+                </div>
+            </div>
+            <div class="demo-card fade-in" onclick="playDemo('weddings')">
+                <video id="weddings" poster="./public/demos/wedding.png">
+                    <source src="https://res.cloudinary.com/dgutnxfud/video/upload/v1780261747/wedding_oxm8nw.mp4" type="video/mp4">
+                </video>
+                <div class="demo-card-overlay"></div>
+                <span class="demo-card-tag">Bodas</span>
+                <div class="demo-card-content">
+                    <h3 class="demo-card-title">Ceremonia de boda</h3>
+                    <p class="demo-card-desc">Baladas románticas y clásicos atemporales para tu día especial</p>
+                </div>
+                <div class="demo-play-icon">
+                    <svg viewBox="0 0 24 24">
+                        <polygon points="5,3 19,12 5,21" />
+                    </svg>
+                </div>
+            </div>
+            <div class="demo-card fade-in" onclick="playDemo('private')">
+                <video id="private" poster="./public/demos/private.png">
+                    <source src="https://res.cloudinary.com/dgutnxfud/video/upload/v1780261748/private_pkeopl.mp4" type="video/mp4">
+                </video>
+                <div class="demo-card-overlay"></div>
+                <span class="demo-card-tag">Eventos Privados</span>
+                <div class="demo-card-content">
+                    <h3 class="demo-card-title">Fiestas privadas</h3>
+                    <p class="demo-card-desc">Presentaciones de alta energía para celebraciones exclusivas</p>
+                </div>
+                <div class="demo-play-icon">
+                    <svg viewBox="0 0 24 24">
+                        <polygon points="5,3 19,12 5,21" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <!-- Audio Player Bar -->
+        <div class="audio-player-bar fade-in">
+             <!-- Hidden audio -->
+            <audio id="audioPlayer">
+                <source src="https://res.cloudinary.com/dgutnxfud/video/upload/audio_ol3s0k.mp4" type="audio/mpeg">
+            </audio>
+            <div class="audio-icon">
+                <svg viewBox="0 0 24 24">
+                    <path
+                        fill="none"
+                        stroke="#C8A96B"
+                        stroke-width="1.8"
+                        d="M9 18V5l12-2v13M9 18c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3zM21 16c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z" />
+                </svg>
+            </div>
+            <div class="audio-info">
+                <p class="audio-title">¿Hacemos un corrido en merengue?</p>
+                <p class="audio-subtitle">Grabación en vivo de un cover reciente</p>
+            </div>
+            <div class="audio-progress-container">
+                <div class="audio-progress" onclick="setProgress(event)">
+                    <div class="audio-progress-fill" id="progressFill"></div>
+                </div>
+                <span class="audio-time" id="audioTime">0:00 / 0:59</span>
+            </div>
+            <div class="audio-play-btn" onclick="toggleAudioPlayer()">
+                <svg viewBox="0 0 24 24" id="audioPlayIcon">
+                    <polygon points="5,3 19,12 5,21"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-header fade-in">
+            <p class="section-subtitle">Lo que ofrecemos</p>
+            <h2 class="section-title">Nuestros Servicios</h2>
+        </div>
+        
+        <div class="services-grid">
+            <div class="service-card fade-in">
+                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <circle cx="12" cy="12" r="10" />
+                    <polygon points="10,8 16,12 10,16" />
+                </svg>
+                <h3>Música en vivo</h3>
+                <p>Actuaciones musicales personalizadas para bodas, eventos corporativos y celebraciones privadas. Repertorio adaptado a tu estilo y ambiente.</p>
+            </div>
+
+            <div class="service-card fade-in">
+                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M9 18V5l12-2v13" />
+                    <circle cx="6" cy="18" r="3" />
+                    <circle cx="18" cy="16" r="3" />
+                </svg>
+                <h3>Show de karaoke</h3>
+                <p>Experiencias interactivas de karaoke en vivo con equipo profesional, micrófonos inalámbricos y repertorio amplio para todos los invitados.</p>
+            </div>
+
+            <div class="service-card fade-in">
+                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M3 12h18" />
+                    <path d="M5 8h14" />
+                    <path d="M7 16h10" />
+                    <circle cx="12" cy="12" r="10" />
+                </svg>
+                <h3>Iluminación para eventos</h3>
+                <p>Diseño y montaje de iluminación ambiental y escénica para crear atmósferas únicas en cualquier tipo de evento.</p>
+            </div>
+
+            <div class="service-card fade-in">
+                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M2 8h20v8H2z" />
+                    <circle cx="7" cy="12" r="1.5" />
+                    <circle cx="12" cy="12" r="1.5" />
+                    <circle cx="17" cy="12" r="1.5" />
+                </svg>
+                <h3>Equipo de sonido</h3>
+                <p>Sistemas de audio profesional de alta calidad para garantizar claridad, potencia y una experiencia sonora impecable en cualquier espacio.</p>
+            </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div>
+            <div class="section-header fade-in">
+                <p class="section-subtitle">Reseñas de clientes</p>
+                <h2 class="section-title">Lo que ellos dicen</h2>
+            </div>
+            <div class="testimonial-slider fade-in">
+                <div class="testimonial-item active">
+                    <p class="testimonial-quote">
+                        &ldquo;Live music, good vibes, and that energy you can feel the moment you walk in 🎶🔥 
+                        The perfect plan to unwind, sing along, and enjoy the night with your favorite people 🍸💃&rdquo;
+                    </p>
+
+                    <div class="testimonial-author" onclick="window.open('https://www.instagram.com/p/DWEq4PLjSOB/', '_blank')">
+                        <strong>piscoexpress</strong>
+                        <span>Noche de música en vivo en el restaurante</span>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <p class="testimonial-quote">
+                        &ldquo;¡WOW! ¡Qué hermoso canta usted! Estoy encantada y muy agradecida de haber ido 
+                        ayer por primera vez al restaurante El Cilantrillo y haber tenido la oportunidad de 
+                        escuchar su voz. Todo estuvo buenísimo.&rdquo;
+                    </p>
+                    <div class="testimonial-author" onclick="window.open('https://www.instagram.com/p/CVbstr3g-8b/', '_blank')">
+                        <strong>Cliente del Cilantrillo</strong>
+                        <span>Noche de música en vivo</span>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <p class="testimonial-quote">
+                        &ldquo;Gracias por interpretar canciones de mi amada abuela!!! 
+                        ❤️❤️❤️te veré pronto y así sentirme tan cerca de ella👏👏👏 mil gracias&rdquo;
+                    </p>
+                    <div class="testimonial-author" onclick="window.open('https://www.instagram.com/p/CECkeOGgFpn/', '_blank')">
+                        <strong>@paulavry</strong>
+                        <span>Cover de la versión de Veronica Rey</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-dots">
+            <span class="testimonial-dot active" data-index="0"></span>
+            <span class="testimonial-dot" data-index="1"></span>
+            <span class="testimonial-dot" data-index="2"></span>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="section-header fade-in">
+            <p class="section-subtitle">Nuestros momentos</p>
+            <h2 class="section-title">Galería</h2>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item fade-in">
+                <img src="./public/gallery/1.jpg"
+                    alt="Performance 1">
+                <div class="gallery-item-overlay"></div>
+            </div>
+            <div class="gallery-item fade-in">
+                <img src="./public/gallery/2.png"
+                    alt="Performance 2">
+                <div class="gallery-item-overlay"></div>
+            </div>
+            <div class="gallery-item fade-in">
+                <img src="./public/gallery/3.png"
+                    alt="Performance 3">
+                <div class="gallery-item-overlay"></div>
+            </div>
+            <div class="gallery-item fade-in">
+                <img src="./public/gallery/4.png"
+                    alt="Performance 4">
+                <div class="gallery-item-overlay"></div>
+            </div>
+            <div class="gallery-item fade-in">
+                <img src="./public/gallery/5.png"
+                    alt="Performance 5">
+                <div class="gallery-item-overlay"></div>
+            </div>
+            <div class="gallery-item fade-in">
+                <img src="./public/gallery/6.png"
+                    alt="Performance 6">
+                <div class="gallery-item-overlay"></div>
+            </div>
+            <div class="gallery-item fade-in">
+                <img src="./public/gallery/7.png"
+                    alt="Performance 7">
+                <div class="gallery-item-overlay"></div>
+            </div>
+            <div class="gallery-item fade-in">
+                <img src="./public/gallery/8.png"
+                    alt="Performance 8">
+                <div class="gallery-item-overlay"></div>
+            </div>
+            <div class="gallery-item fade-in">
+                <img src="./public/gallery/9.png"
+                    alt="Performance 9">
+                <div class="gallery-item-overlay"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-header fade-in">
+            <p class="section-subtitle">Contacto</p>
+            <h2 class="section-title">Hagamos tu Evento Inolvidable</h2>
+            <p class="section-description">Estamos listos para llevar música en vivo, elegancia y emoción a tu celebración. Contáctanos y creemos juntos el ambiente perfecto para tu evento.
+            </p>
+        </div>
+        <div class="contact-grid fade-in">
+            <div class="contact-card">
+                <h3>Dakeisa / Música en vivo</h3>
+                <div class="contact-info-list">
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                            </svg>
+                        </div>
+                        <span class="contact-info-text">+1 (321) 588-3698</span>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                        </div>
+                        <span class="contact-info-text">dakeisa.chacon@icloud.com</span>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                        </div>
+                        <span class="contact-info-text">Trabajamos en toda Florida</span>
+                    </div>
+                </div>
+                <div class="contact-status">
+                    <div class="status-dot"></div>
+                    <span>Disponibles las 24 horas</span>
+                </div>
+                <div class="contact-social">
+                    <a href="https://www.youtube.com/@dakeisachacon7799" aria-label="Youtube" target="_blank">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/+13215883698?text=Hola!%20Me%20interesa%20solicitar%20una%20cotizacion%20para%20un%20evento." target="_blank"
+                        aria-label="WhatsApp">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/dakeisa" aria-label="Instagram" target="_blank">
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            fill="currentColor">
+
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-card qr-card">
+                <div class="qr-image">
+                    <img src="./public/QR.svg"
+                        alt="QR Code">
+                </div>
+                <p class="qr-text">¿Quieres música en vivo para tu evento? ¡Contáctanos!</p>
+                <p class="qr-phone">+1 (321) 588-3698</p>
+                <a href="https://wa.me/+13215883698?text=Hola!%20Me%20interesa%20solicitar%20una%20cotizacion%20para%20un%20evento."
+                    target="_blank"
+                    class="whatsapp-btn">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    Escríbenos por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <span class="footer-logo">MÚSICA EN VIVO</span>
+            <div class="social-links">
+                <a href="https://www.instagram.com/dakeisa" aria-label="Instagram" target="_blank">
+                    <svg 
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="currentColor">
+
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </a>
+                <a href="https://www.youtube.com/@dakeisachacon7799" aria-label="YouTube" target="_blank">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                    </svg>
+                </a>
+                <a href="https://wa.me/+13215883698?text=Hola!%20Me%20interesa%20solicitar%20una%20cotizacion%20para%20un%20evento." target="_blank"
+                    aria-label="WhatsApp">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                </a>
+            </div>
+            <a href="https://github.com/0trebeh" target="_blank" rel="noopener noreferrer" class="footer-credit">
+                <span class="footer-copyright">&copy; Made with ❤️ by Heberto Urribarri</span>
+            </a>   
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/+13215883698?text=Hola!%20Me%20interesa%20solicitar%20una%20cotizacion%20para%20un%20evento."
+        class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <span class="whatsapp-tooltip">Solicitar cotización</span>
+        <svg viewBox="0 0 24 24">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
