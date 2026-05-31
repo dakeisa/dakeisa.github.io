@@ -145,9 +145,14 @@ function playDemo(category) {
 }
 
 function toggleAudioPlayer() {
+    if (!audio) return;
+
     if (audio.paused) {
         pauseOtherVideos("none");
-        audio.play();
+
+        audio.play().catch(err => {
+            console.log("Play blocked:", err);
+        });
         playBtn.innerHTML = '<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>';
     } else {
         audio.pause();
