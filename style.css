@@ -685,8 +685,24 @@ section {
 .demo-play-icon svg {
   width: 20px;
   height: 20px;
-  fill: var(--black);
   margin-left: 3px;
+}
+
+.play-shape,
+.pause-shape rect {
+  fill: #000;
+}
+
+.pause-shape {
+    display: none;
+}
+
+.demo-card.playing .play-shape {
+    display: none;
+}
+
+.demo-card.playing .pause-shape {
+    display: block;
 }
 
 /* Audio Player Bar */
