@@ -1050,6 +1050,7 @@ section {
 .contact-info-text {
   font-size: 1rem;
   color: var(--white);
+  text-decoration: none;
 }
 
 .contact-status {
@@ -1148,6 +1149,7 @@ section {
   font-size: 2rem;
   color: var(--gold);
   margin-bottom: 1.5rem;
+  text-decoration: none;
 }
 
 .whatsapp-btn {
