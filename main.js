@@ -280,5 +280,15 @@ observerhero.observe(heroVideo);
 
 document.addEventListener('DOMContentLoaded', function() {
     animateStats();
-    changeVolume(0);
+
+    playIcon.style.display = 'none';
+    pauseIcon.style.display = 'block';
+    volumeIcon.style.display = 'none';
+    muteIcon.style.display = 'block';
+    
+    aboutVideo.muted = true;
+
+    aboutVideo.play().catch(err => {
+        console.log('Autoplay blocked:', err);
+    });
 });
