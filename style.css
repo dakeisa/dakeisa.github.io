@@ -1050,7 +1050,8 @@ section {
 
 .contact-info-text {
   font-size: 1rem;
-  color: var(--white);
+  color: var(--white) !important;
+  -webkit-tap-highlight-color: transparent;
   text-decoration: none;
 }
 
@@ -1148,7 +1149,8 @@ section {
 .qr-phone {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
-  color: var(--gold);
+  color: var(--gold) !important;
+  -webkit-tap-highlight-color: transparent;
   margin-bottom: 1.5rem;
   text-decoration: none;
 }
