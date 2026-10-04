@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://dakeisa.github.io/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://dakeisa.github.io/public/banner.jpg</image:loc></image:image>
+    <image:image><image:loc>https://dakeisa.github.io/public/gallery/17-1440.webp</image:loc></image:image>
+    <image:image><image:loc>https://dakeisa.github.io/public/gallery/1-1440.webp</image:loc></image:image>
+    <image:image><image:loc>https://dakeisa.github.io/public/gallery/12-1440.webp</image:loc></image:image>
+    <image:image><image:loc>https://dakeisa.github.io/public/gallery/13-1440.webp</image:loc></image:image>
+  </url>
+</urlset>

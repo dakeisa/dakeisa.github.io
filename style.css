@@ -541,6 +541,7 @@ section {
   z-index: -1;
 }
 
+.about-text h2,
 .about-text h3 {
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
@@ -924,6 +925,8 @@ section {
   flex-direction: column;
   gap: 0.5rem;
   cursor: pointer;
+  color: inherit;
+  text-decoration: none;
 }
 
 .testimonial-author strong {
@@ -1471,5 +1474,35 @@ footer {
     right: 20px;
     width: 55px;
     height: 55px;
+  }
+}
+/* Texto solo para lectores de pantalla y buscadores */
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Foco visible para navegación con teclado */
+[role="button"]:focus-visible,
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+/* Respeta usuarios que prefieren menos movimiento */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }

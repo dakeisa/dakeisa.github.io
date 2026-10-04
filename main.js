@@ -22,14 +22,10 @@ const playBtn = document.getElementById('audioPlayIcon');
 const heroVideo = document.getElementById('heroVideo');
 
 // Navbar scroll effect
+const navbar = document.querySelector('.navbar');
 window.addEventListener('scroll', () => {
-    const navbar = document.querySelector('.navbar');
-    if (window.scrollY > 50) {
-        navbar.classList.add('scrolled');
-    } else {
-        navbar.classList.remove('scrolled');
-    }
-});
+    navbar.classList.toggle('scrolled', window.scrollY > 50);
+}, { passive: true });
 
 // Mobile navigation toggle
 function toggleMobileNav() {
@@ -278,6 +274,29 @@ document.querySelectorAll('.fade-in').forEach(el => {
 
 observerhero.observe(heroVideo);
 
+// About video: solo se descarga y reproduce cuando entra en pantalla
+const observerAbout = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (!aboutVideo.muted) return; // el usuario ya tomó el control
+        if (entry.isIntersecting) {
+            aboutVideo.play().catch(() => {});
+        } else {
+            aboutVideo.pause();
+        }
+    });
+}, { threshold: 0.25 });
+observerAbout.observe(aboutVideo);
+
+// Accesibilidad: elementos con role="button" responden a Enter / Espacio
+document.querySelectorAll('[role="button"]').forEach(el => {
+    el.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            el.click();
+        }
+    });
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     animateStats();
 
@@ -287,9 +306,5 @@ document.addEventListener('DOMContentLoaded', function() {
     muteIcon.style.display = 'block';
     
     aboutVideo.muted = true;
-
-    aboutVideo.play().catch(err => {
-        console.log('Autoplay blocked:', err);
-    });
     heroVideo.play().catch(() => {});
 });

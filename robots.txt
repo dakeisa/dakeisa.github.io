@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dakeisa.github.io/sitemap.xml
